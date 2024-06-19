@@ -19,7 +19,7 @@ platform:
     diskType: thin
     folder: /SDDC-Datacenter/vm/Workloads/sandbox-{{ guid }}
     password: {{ vcenter_password}}
-    username: sandbox-{{ guid }}@{{ vcenter_domain }}
+    username: sandbox-{{ guid }}@demo
     vCenter: {{ vcenter_hostname }}
 publish: External
 pullSecret: {{ ocp4_pull_secret | to_json }}

@@ -34,7 +34,7 @@ include "/etc/named.rfc1912.zones";
 include "/etc/named.root.key";
 zone "dynamic.redhatworkshops.io" IN {
         type master;
-        file "dynamic.redhatworkshops.io";
+        file "dynamic.redhatworkshops.io.zone";
 };
 zone    "{{ labenv_segment }}.168.192.in-addr.arpa" IN {
        type master;

@@ -1,12 +1,12 @@
 $TTL 1D
-@   IN SOA  dns.dynamic.opentlc.com   root.dns.dynamic.opentlc.com. (
+@   IN SOA  dns.dynamic.redhatworkshops.io   root.dns.dynamic.redhatworkshops.io. (
                                        2017031330      ; serial
                                        1D              ; refresh
                                        1H              ; retry
                                        1W              ; expire
                                        3H )            ; minimum
-$ORIGIN         dynamic.opentlc.com.
-dynamic.opentlc.com.            IN      NS      dns.dynamic.opentlc.com.
+$ORIGIN         dynamic.redhatworkshops.io.
+dynamic.opentlc.com.            IN      NS      dns.dynamic.redhatworkshops.io.
 dns                     IN      A       192.168.{{ labenv_segment }}.10
 *.apps.{{ guid }}     IN    A    192.168.{{ labenv_segment }}.10
 ns1.{{ guid }}     IN    A    192.168.{{ labenv_segment }}.111
